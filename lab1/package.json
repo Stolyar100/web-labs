@@ -1,0 +1,30 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "learning node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stolyar100/web-labs.git"
+  },
+  "author": "Stolyar100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stolyar100/web-labs/issues"
+  },
+  "homepage": "https://github.com/Stolyar100/web-labs#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
