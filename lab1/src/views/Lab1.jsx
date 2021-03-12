@@ -11,9 +11,7 @@ const Lab1 = ({ studentName, variant }) => {
     <div>
       <h1>Варіант №{variant}</h1>
       <p>Виконав: {studentName}</p>
-      <p>
-        {variant > 15 ? 'Друга' : 'Перша'} підгрупа {variable.length}
-      </p>
+      <p>{variant > 15 ? 'Друга' : 'Перша'}</p>
       <ul>
         {variable.map((value, index) => (
           <li>
