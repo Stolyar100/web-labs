@@ -12,7 +12,7 @@ app.engine('jsx', expressReactVeiws.createEngine())
 app.use('/lab1', lab1)
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('src/static/index.html'))
+  res.render('Layout')
 })
 
 app.listen(PORT, () =>

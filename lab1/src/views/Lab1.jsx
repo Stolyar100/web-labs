@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from './Layout'
 
 const Lab1 = ({ studentName, variant }) => {
   const variable = []
@@ -8,18 +9,20 @@ const Lab1 = ({ studentName, variant }) => {
   }
 
   return (
-    <div>
-      <h1>Варіант №{variant}</h1>
-      <p>Виконав: {studentName}</p>
-      <p>{variant > 15 ? 'Друга' : 'Перша'}</p>
-      <ul>
-        {variable.map((value, index) => (
-          <li>
-            {value} - квадрат числа {index}
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Layout>
+      <div>
+        <h1>Варіант №{variant}</h1>
+        <p>Виконав: {studentName}</p>
+        <p>{variant > 15 ? 'Друга' : 'Перша'}</p>
+        <ul>
+          {variable.map((value, index) => (
+            <li>
+              {value} - квадрат числа {index}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Layout>
   )
 }
 
